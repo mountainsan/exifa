@@ -191,19 +191,19 @@ particles_js = """<!DOCTYPE html>
 </html>
 """
 
-st.set_page_config(page_title="Exifa.net", page_icon="✨", layout="wide")
+st.set_page_config(page_title="DreamerAI", page_icon="✨", layout="wide")
 
 welcome_messages = [
-    "Hello! I'm Exifa, an AI assistant designed to make image metadata meaningful. Ask me anything!",
-    "Hi! I'm Exifa, an AI-powered assistant for extracting and explaining EXIF data. How can I help you today?",
-    "Hey! I'm Exifa, your AI-powered guide to understanding the metadata in your images. What would you like to explore?",
-    "Hi there! I'm Exifa, an AI-powered tool built to help you make sense of your image metadata. How can I help you today?",
-    "Hello! I'm Exifa, an AI-driven tool designed to help you understand your images' metadata. What can I do for you?",
-    "Hi! I'm Exifa, an AI-driven assistant designed to make EXIF data easy to understand. How can I help you today?",
-    "Welcome! I'm Exifa, an intelligent AI-powered tool for extracting and explaining EXIF data. How can I assist you today?",
-    "Hello! I'm Exifa, your AI-powered guide for understanding image metadata. Ask me anything!",
-    "Hi! I'm Exifa, an intelligent AI assistant ready to help you understand your images' metadata. What would you like to explore?",
-    "Hey! I'm Exifa, an AI assistant for extracting and explaining EXIF data. How can I help you today?",
+ #   "Hello! I'm Exifa, an AI assistant designed to make image metadata meaningful. Ask me anything!",
+  #  "Hi! I'm Exifa, an AI-powered assistant for extracting and explaining EXIF data. How can I help you today?",
+  #  "Hey! I'm Exifa, your AI-powered guide to understanding the metadata in your images. What would you like to explore?",
+  #  "Hi there! I'm Exifa, an AI-powered tool built to help you make sense of your image metadata. How can I help you today?",
+  #  "Hello! I'm Exifa, an AI-driven tool designed to help you understand your images' metadata. What can I do for you?",
+  #  "Hi! I'm Exifa, an AI-driven assistant designed to make EXIF data easy to understand. How can I help you today?",
+  #  "Welcome! I'm Exifa, an intelligent AI-powered tool for extracting and explaining EXIF data. How can I assist you today?",
+  #  "Hello! I'm Exifa, your AI-powered guide for understanding image metadata. Ask me anything!",
+    "칼 융(Carl Jung)은 꿈을 단순한 무의식적 활동이 아닌, 무의식과 의식 간의 상호작용으로 보았으며, 꿈을 통해 무의식이 의식에 중요한 메시지를 전달한다고 믿었습니다. 오늘 당신은 어떤 꿈을 꾸셨나요?",
+    "안녕하세요. 꿈꾸는 모든 사람들을 위한 DreamerAI 입니다.",
 ]
 
 message = random.choice(welcome_messages)

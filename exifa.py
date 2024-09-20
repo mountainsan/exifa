@@ -203,7 +203,7 @@ welcome_messages = [
   #  "Welcome! I'm Exifa, an intelligent AI-powered tool for extracting and explaining EXIF data. How can I assist you today?",
   #  "Hello! I'm Exifa, your AI-powered guide for understanding image metadata. Ask me anything!",
     "칼 융(Carl Jung)은 꿈을 단순한 무의식적 활동이 아닌, 무의식과 의식 간의 상호작용으로 보았으며, 꿈을 통해 무의식이 의식에 중요한 메시지를 전달한다고 믿었습니다. 오늘 당신은 어떤 꿈을 꾸셨나요?",
-    "안녕하세요. 꿈꾸는 모든 사람들을 위한 DreamerAI 입니다.",
+ #   "안녕하세요. 꿈꾸는 모든 사람들을 위한 DreamerAI 입니다.",
 ]
 
 message = random.choice(welcome_messages)
